@@ -1,0 +1,23 @@
+.DashedProfile{
+  width: 100%;
+   min-height: 100%;
+   .Dashedprofile_content{
+     padding-top: 1rem;
+     display: flex;
+     flex-direction: row;
+     .profile_img{
+       img{
+         width: 2.5rem;
+         border-radius: 50rem;
+       }
+     }
+     .profile_content{
+      padding-left: 2rem;
+      font-family: sans-serif;
+      h2{
+        margin-top: 10px;
+      }
+    }
+   }
+  
+}

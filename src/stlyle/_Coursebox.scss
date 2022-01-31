@@ -1,0 +1,155 @@
+.dashboard_current{
+    overflow: hidden;
+    height: auto;
+  //  background-color: white;
+
+    
+  .dashboard-content{
+    border-radius: 1.5rem; 
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem ;
+    height: 60vh;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.75);
+ 
+      .background-dashboard{
+       margin: 7px ;
+      img{
+        border-radius: 1rem;
+        width: 100%;
+        // height: 40%;
+        object-fit: contain;
+    
+      }
+           h1 {
+               position: absolute;
+               top: 0;
+               padding-top: 1rem;
+            color: white;
+            font-weight: bold;
+            font-size: 2rem;
+          }
+          .teacher_info{
+            position: absolute;
+            background-color: white;
+            top: 170px;
+            border: 1px solid black;
+            
+            display: flex;
+            flex-direction: column;
+            // padding: 2rem;
+            // align-items: center;
+            margin-bottom: 10rem;
+            width: 15rem;
+            border-radius: 20rem;
+            z-index: 2;
+            
+         .sahis{
+        display: flex;
+        align-items: center;
+        padding-left: 3px;
+               img{
+             width: 1.95rem;
+
+            
+            }
+            display: flex;
+         }
+         .binis{
+          padding: 3px;
+
+             margin-left: 1rem;
+             .instructor{
+              
+         font-family: sans-serif;
+         font-size: 14px;
+ 
+             }
+             .asistant{
+              color: #3A7F7C;
+              font-size: 14px;
+             }
+         }
+        }
+      }
+    //   
+      .second_part{
+          position: relative;
+          margin-top: 2rem;
+          .banner{
+            display: flex;
+            justify-content: space-around;
+           align-items: center;
+            text-align: center;
+            color: white;
+       
+             height: 1.5rem;
+             background-color: #3A7F7C;
+           .com{
+              // font-size: 20px;
+               color: #36ccc4;
+               span{
+                 font-size: 20px;
+                //  color: #36ccc4;
+               }
+           }
+            }
+            .activites{
+                 display: grid;
+                 grid-template-columns: 1fr 1fr ;
+                //  column-gap: 5px;
+                 grid-template-rows: auto;
+                 margin-top: 2rem;
+                 padding: 10px;
+                //  border-radius: 20rem;
+                .activity{
+                    border-radius: 20px;
+                    //  height:2rem ;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     color: white;
+                     width: 10rem;
+                     padding: 5px;
+
+                     font-size: 15px;
+                     
+                  
+                }
+                 .active1{
+    background-color: #c27945;
+    color: #FFD2B2;
+    margin-top: 5px; 
+    margin-right: 1rem;
+}
+.active2{
+    background-color:#dd5c5c;
+    color: #ffaaaa;
+    margin-top: 5px; 
+  display: block;
+}
+.active3{
+  
+    background-color: #85df67;
+    color:#daffce ;
+    margin-top: 5px; 
+}
+
+              }
+        }
+        &:nth-child(3){
+            padding-bottom: 2rem;
+        }
+    }
+    }
+
+.koo{
+  position: absolute;
+  top: 560px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: absolute;
+  
+}

@@ -1,0 +1,574 @@
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.2fr 5fr 1.5fr;
+      grid-template-columns: 1.2fr 5fr 1.5fr;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.dashboard_nav {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+}
+
+.dashboard_nav .nav-main-content .nav-logo {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.dashboard_nav .nav-main-content .nav-logo img {
+  width: 2.5rem;
+}
+
+.dashboard_nav .nav-main-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard_nav .nav-main-content ul li h1 {
+  margin-left: 1rem;
+}
+
+.dashboard_nav .nav-footer {
+  width: 100%;
+  height: 5vh;
+}
+
+.dashboard_nav .nav-footer h1 {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 2rem;
+}
+
+.dashboard_main {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.main_search {
+  width: 100%;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_search .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_search .search input {
+  width: 35rem;
+  height: 2rem;
+}
+
+.main_search .search button {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+
+.main_search .search button img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  background-color: none;
+}
+
+.main_search .sahi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_search .sahi .notification_img img {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 40%;
+}
+
+.main_search .sahi .notification-date {
+  margin-left: 1rem;
+  border: 1px solid black;
+  border-radius: 25%;
+  padding: 10px 1rem;
+}
+
+.course_info {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #346934;
+  font-weight: bold;
+}
+
+.course_info a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #346934;
+  padding: 10px;
+}
+
+.DashedProfile {
+  width: 100%;
+  min-height: 100%;
+}
+
+.DashedProfile .Dashedprofile_content {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.DashedProfile .Dashedprofile_content .profile_img img {
+  width: 2.5rem;
+  border-radius: 50rem;
+}
+
+.DashedProfile .Dashedprofile_content .profile_content {
+  padding-left: 2rem;
+  font-family: sans-serif;
+}
+
+.DashedProfile .Dashedprofile_content .profile_content h2 {
+  margin-top: 10px;
+}
+
+.course_curent {
+  font-size: 4rem;
+}
+
+.dashboard_current {
+  overflow: hidden;
+  height: auto;
+}
+
+.dashboard_current .dashboard-content {
+  border-radius: 1.5rem;
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 60vh;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.dashboard_current .dashboard-content .background-dashboard {
+  margin: 7px;
+}
+
+.dashboard_current .dashboard-content .background-dashboard img {
+  border-radius: 1rem;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.dashboard_current .dashboard-content .background-dashboard h1 {
+  position: absolute;
+  top: 0;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info {
+  position: absolute;
+  background-color: white;
+  top: 170px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10rem;
+  width: 15rem;
+  border-radius: 20rem;
+  z-index: 2;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info .sahis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3px;
+  display: flex;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info .sahis img {
+  width: 1.95rem;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info .binis {
+  padding: 3px;
+  margin-left: 1rem;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info .binis .instructor {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.dashboard_current .dashboard-content .background-dashboard .teacher_info .binis .asistant {
+  color: #3A7F7C;
+  font-size: 14px;
+}
+
+.dashboard_current .dashboard-content .second_part {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.dashboard_current .dashboard-content .second_part .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  height: 1.5rem;
+  background-color: #3A7F7C;
+}
+
+.dashboard_current .dashboard-content .second_part .banner .com {
+  color: #36ccc4;
+}
+
+.dashboard_current .dashboard-content .second_part .banner .com span {
+  font-size: 20px;
+}
+
+.dashboard_current .dashboard-content .second_part .activites {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+.dashboard_current .dashboard-content .second_part .activites .activity {
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  width: 10rem;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.dashboard_current .dashboard-content .second_part .activites .active1 {
+  background-color: #c27945;
+  color: #FFD2B2;
+  margin-top: 5px;
+  margin-right: 1rem;
+}
+
+.dashboard_current .dashboard-content .second_part .activites .active2 {
+  background-color: #dd5c5c;
+  color: #ffaaaa;
+  margin-top: 5px;
+  display: block;
+}
+
+.dashboard_current .dashboard-content .second_part .activites .active3 {
+  background-color: #85df67;
+  color: #daffce;
+  margin-top: 5px;
+}
+
+.dashboard_current .dashboard-content:nth-child(3) {
+  padding-bottom: 2rem;
+}
+
+.koo {
+  position: absolute;
+  top: 560px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.course_structure {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.Accordion_holder {
+  height: 100vh;
+}
+
+.Accordion {
+  margin-top: 2rem;
+}
+
+.Accordion .accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.Accordion .accordion h1 {
+  margin-left: 8px;
+  font-size: 1.6vw;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.Accordion .accordion span {
+  width: 16px;
+  height: 4px;
+  background: black;
+  -webkit-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Accordion .accordion .actual1 {
+  -webkit-transform: translateX(3px) rotate(45deg) translateZ(0px);
+          transform: translateX(3px) rotate(45deg) translateZ(0px);
+}
+
+.Accordion .accordion .actual2 {
+  -webkit-transform: translateX(-3px) rotate(-45deg) translateZ(0px);
+          transform: translateX(-3px) rotate(-45deg) translateZ(0px);
+}
+
+.Accordion .accordion .change {
+  -webkit-transform: translateX(3px) rotate(0deg) translateZ(0px);
+          transform: translateX(3px) rotate(0deg) translateZ(0px);
+}
+
+.Accordion .accordion-content {
+  display: none;
+  margin-top: 1rem;
+  overflow: hidden;
+  -webkit-transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Accordion .accordion-content p {
+  line-height: 1.75 !important;
+  font-size: 1.4vw;
+  font-family: sans-serif;
+}
+
+.Accordion .AccordionChange {
+  margin-top: 1rem;
+  overflow: hidden;
+  display: block;
+  padding-left: 40px;
+  -webkit-transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 100s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Accordion .AccordionChange p {
+  line-height: 1.75 !important;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

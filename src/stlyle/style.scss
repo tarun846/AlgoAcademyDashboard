@@ -1,0 +1,21 @@
+main{
+    display: grid ;
+    grid-template-columns: 1.2fr 5fr 1.5fr;
+    // background-color: rgb(148, 141, 141)
+}
+@import '_reset';
+@import '_dashboardnav';
+@import '_dashboard';
+@import '_dashedprofile';
+.course_curent{
+    font-size: 4rem;
+}
+
+@import '_Coursebox';
+.course_structure{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@import '_Accordion';
