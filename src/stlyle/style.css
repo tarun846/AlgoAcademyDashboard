@@ -415,7 +415,7 @@ img {
           align-items: center;
   text-align: center;
   color: white;
-  height: 1.5rem;
+  height: 2.5rem;
   background-color: #3A7F7C;
 }
 
@@ -432,7 +432,6 @@ img {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  margin-top: 2rem;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   padding: 10px;
