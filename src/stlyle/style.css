@@ -434,7 +434,6 @@ img {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  margin-top: 2rem;
   padding: 10px;
 }
 
