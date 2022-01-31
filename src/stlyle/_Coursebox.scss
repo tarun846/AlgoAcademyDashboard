@@ -103,14 +103,14 @@
             .activites{
                  display: grid;
                  grid-template-columns: 1fr 1fr ;
-             
+              margin-top: 2rem;
                  grid-template-rows: auto;
                 
                  padding: 10px;
                 
                 .activity{
                     border-radius: 20px;
-                  
+                     
                      display: flex;
                      align-items: center;
                      justify-content: center;
