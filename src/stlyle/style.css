@@ -415,7 +415,7 @@ img {
           align-items: center;
   text-align: center;
   color: white;
-  height: 2.5rem;
+  height: 2.45rem;
   background-color: #3A7F7C;
 }
 
@@ -439,6 +439,7 @@ img {
 
 .dashboard_current .dashboard-content .second_part .activites .activity {
   border-radius: 20px;
+  margin-top: 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
