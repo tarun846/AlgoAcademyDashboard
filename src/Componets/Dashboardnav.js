@@ -2,8 +2,8 @@ import React from 'react'
 
 function Dashboardnav() {
     return (
-        <div class = 'dashboard_nav' >
-            <div class = 'nav-main-content' >
+        <div className = 'dashboard_nav' >
+            <div className = 'nav-main-content' >
                 <div className = 'nav-logo' > 
               <img src = '/Assets/download (2).jpeg' />
                 </div>
@@ -55,10 +55,10 @@ function Dashboardnav() {
 export default Dashboardnav
 
 
-{/* <div class="dashboard_nav">
+{/* <div className="dashboard_nav">
             
-<div class="nav-main-content">
-   <div class="nav-logo">
+<div className="nav-main-content">
+   <div className="nav-logo">
        <img src="./Assets/download (2).jpeg" alt="">
    </div>
 <ul>
@@ -92,7 +92,7 @@ export default Dashboardnav
  </li>
 </ul>
 </div> 
-<div class="nav-footer">
+<div className="nav-footer">
   <h1>   Algouniversity </h1>
 </div>
 </div> */}

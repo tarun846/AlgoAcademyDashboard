@@ -6,7 +6,7 @@ import Dashboardprofile from './Componets/DashboaedProfile'
 function App() {
   return (
     <div>
-      <main className = 'mainstyle' >
+      <main className= 'mainstyle'  >
         <Dashboardnav />
          <DashboardMain/>
           <Dashboardprofile/>

@@ -5,9 +5,9 @@ import data from '../fakedata'
 function DashboardMain() {
      
     return (
-        <div class="dashboard_main">
+        <div className="dashboard_main">
         <Search/>
-        <h1 classname = 'course_current' style = {{ fontSize : '2rem'}}  >     Your Current Courses... </h1>
+        <h1 className = 'course_current' style = {{ fontSize : '2rem'}}  >     Your Current Courses... </h1>
           <div className = 'course_structure'>
           {
               data.map( (d,i) => {

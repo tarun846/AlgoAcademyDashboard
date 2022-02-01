@@ -329,12 +329,13 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.dashboard_current .dashboard-content .background-dashboard img {
+.dashboard_current .dashboard-content .background-dashboard .course_img {
   border-radius: 2rem;
   width: 100%;
   padding: 10px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .dashboard_current .dashboard-content .background-dashboard h1 {

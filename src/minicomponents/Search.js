@@ -3,21 +3,21 @@ import React from 'react'
 function Search() {
     return (
         <>
-        <div class="main_search">
-<div class="search">
+        <div className="main_search">
+<div className="search">
 <input type="text" placeholder="search" />
 <button>
 <img src="/Assets/free-search-icon-free-vector-1.jpg" alt=""/>
 </button>
 </div>
-<div class="sahi">
-    <div class="notification_img">
+<div className="sahi">
+    <div className="notification_img">
         <img src="./Assets/IMG-20220131-WA0009.jpg" alt=""/>
     </div>
-    <div class="notification-date">  Today 3rd Dec </div>
+    <div className="notification-date">  Today 3rd Dec </div>
 </div>
         </div>
-      <div class="course_info">
+      <div className="course_info">
       <h1> 27 courses  </h1> 
       <h1> 318 students  </h1>
       <h1>  234 Resources </h1>
@@ -31,16 +31,16 @@ function Search() {
 }
 
 export default Search
-{/* <div class="main_search">
-<div class="search">
+{/* <div className="main_search">
+<div className="search">
   
      <!-- <img src="./Assets/free-search-icon-free-vector-1.jpg" alt=""> -->
 </div>
-<div class="sahi">
-    <div class="notification_img">
+<div className="sahi">
+    <div className="notification_img">
         <img src="./Assets/IMG-20220131-WA0009.jpg" alt=""/>
     </div>
-    <div class="notification-date">  Today 3rd Dec </div>
+    <div className="notification-date">  Today 3rd Dec </div>
 </div>
 
 </div> */}
