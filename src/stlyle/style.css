@@ -1,8 +1,8 @@
 main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1.2fr 5fr 1.5fr;
-      grid-template-columns: 1.2fr 5fr 1.5fr;
+  -ms-grid-columns: 1fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
 }
 
 * {
@@ -322,7 +322,7 @@ img {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  height: 60vh;
+  height: 57vh;
   background-color: white;
   -webkit-box-shadow: -4px 11px 5px -3px rgba(0, 0, 0, 0.1);
           box-shadow: -4px 11px 5px -3px rgba(0, 0, 0, 0.1);
@@ -333,7 +333,6 @@ img {
   border-radius: 2rem;
   width: 100%;
   padding: 10px;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -352,7 +351,7 @@ img {
 .dashboard_current .dashboard-content .background-dashboard .teacher_info {
   position: absolute;
   background-color: white;
-  top: 165px;
+  top: 168px;
   -webkit-box-shadow: 0px 8px 8px -9px;
           box-shadow: 0px 8px 8px -9px;
   display: -webkit-box;
@@ -376,12 +375,12 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 3px;
-  display: flex;
 }
 
 .dashboard_current .dashboard-content .background-dashboard .teacher_info .sahis img {
   width: 1.95rem;
   padding: 0;
+  border-radius: 50%;
 }
 
 .dashboard_current .dashboard-content .background-dashboard .teacher_info .binis {
@@ -434,6 +433,8 @@ img {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
   padding: 10px;
 }
 
@@ -452,7 +453,8 @@ img {
   color: white;
   width: 10rem;
   padding: 5px;
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .dashboard_current .dashboard-content .second_part .activites .active1 {
@@ -467,16 +469,15 @@ img {
   color: #ffaaaa;
   margin-top: 5px;
   display: block;
+  margin-right: 1rem;
 }
 
 .dashboard_current .dashboard-content .second_part .activites .active3 {
-  background-color: #85df67;
+  background-color: #87b478;
   color: #daffce;
   margin-top: 5px;
-}
-
-.dashboard_current .dashboard-content:nth-child(3) {
-  padding-bottom: 2rem;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
 }
 
 .koo {
