@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Accordion({data,clicks,index,toggle,kstyles}) {
+function Accordion({data,clicks,index,toggle}) {
   const  { text , title}  = data
 //   console.log(data.data.id);
     return (
@@ -9,10 +9,13 @@ function Accordion({data,clicks,index,toggle,kstyles}) {
         onClick = { () =>toggle(index)}
          >
          <div className ='accordion' >
-             
-          <h1 style ={{ fontSize :'15px' }} > {data.title}  </h1>
-          <span className = {  kstyles ?  'actual1'  :'Change'  } ></span>
-             <span className = {  kstyles ?  'actual2'  : 'Change' } ></span>
+         
+              
+          <h1 style ={{ fontSize :'10px' , fontWeight : 'bolder' }} > {data.title}  </h1>
+           <div className = 'x'  >
+             +
+              </div>
+         
          </div>
  
        <div  id = 'Accordion-text' className = {clicks === index ? ' AccordionChange' : 'accordion-content' } >  

@@ -1,9 +1,10 @@
+
+@import '_reset';
 main{
     display: grid ;
     grid-template-columns: 1fr 4fr 1fr;
-    // background-color: rgb(148, 141, 141)
+    user-select: none
 }
-@import '_reset';
 @import '_dashboardnav';
 @import '_dashboard';
 @import '_dashedprofile';

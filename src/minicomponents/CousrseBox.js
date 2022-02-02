@@ -38,3 +38,4 @@ function CousrseBox({data}) {
 }
 
 export default CousrseBox
+

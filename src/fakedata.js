@@ -12,18 +12,9 @@ const  data = [
         id: 2,
         name : 'Manas kumar Verma ',
         Courses  : 'Data science', 
-         resources : 12 , 
-         topics : 5 ,
-         students : 13. 
-         
-     },
-     {
-        id: 2,
-        name : 'Manas kumar Verma ',
-        Courses  : 'Data science', 
-         resources : 12 , 
-         topics : 5 ,
-         students : 13. 
+resources : 12 , 
+    topics : 5 ,
+    students : 13. 
          
      }
 ]

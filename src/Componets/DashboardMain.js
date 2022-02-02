@@ -7,7 +7,7 @@ function DashboardMain() {
     return (
         <div className="dashboard_main">
         <Search/>
-        <h1 className = 'course_current' style = {{ fontSize : '2rem'}}  >     Your Current Courses... </h1>
+        <h1 className = 'course_current'  >     Your Current Courses... </h1>
           <div className = 'course_structure'>
           {
               data.map( (d,i) => {
@@ -15,10 +15,10 @@ function DashboardMain() {
               } )
           }
           </div>
-          <h1  style = {{ fontSize : '2rem'}}  >     Your Previous Courses... </h1>
+          <h1  className = 'course_current'  >     Your Previous Courses... </h1>
          
 
-          flgfxlh;
+         
 
         </div>
     )

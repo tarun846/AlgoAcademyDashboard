@@ -3,7 +3,7 @@ import Accordioncontent from "../fakedataAccordion";
 import Accordion from '../minicomponents/Accordion';
 function DashboaedProfile() {
     const [click, setclick] = useState(null);
-    const [kstyles, setStyles] = useState(false )
+    
     console.log(click);
     function toggle(i) {
       // console.log(click);
@@ -12,7 +12,6 @@ function DashboaedProfile() {
          return setclick(null)
       }
         setclick(i)
-        setStyles(!kstyles)
       // console.log(i);
     }
     return (
@@ -22,14 +21,14 @@ function DashboaedProfile() {
             <img src = '/images.jpeg' />
             </div>
               <div className = 'profile_content'>
-              <h1> Hello Rishav </h1>
-               <h2> Signout - </h2>
+              <h1>Hello Rishav</h1>
+               <h2> Signout</h2>
               </div>
               
             </div>
             <div className = 'Accordion_holder'>
             {Accordioncontent.map((val , i ) => {
-   return  <Accordion data = {val}  key = {i} clicks = {click}  index ={i} toggle={toggle}  kstyles = {setStyles}  />
+   return  <Accordion data = {val}  key = {i} clicks = {click}  index ={i} toggle={toggle}   />
             })}
                  </div>
         </div>

@@ -1,21 +1,35 @@
 .DashedProfile{
   width: 100%;
-   min-height: 100%;
+   min-height: 100vh;
    .Dashedprofile_content{
      padding-top: 1rem;
      display: flex;
-     flex-direction: row;
+     align-items: center;
+    //  flex-direction: row;
      .profile_img{
+      border: 1px solid rgba($color: #000000, $alpha: 0.2);
+      border-radius: 100px;
+      padding: 2px;
+      filter: grayscale(1);
        img{
+         padding-top: 1.2px;
+      //  border: 1px solid rgba($color: #000000, $alpha: 0.2);
          width: 2.5rem;
          border-radius: 50rem;
+        
        }
      }
      .profile_content{
       padding-left: 2rem;
+     
       font-family: sans-serif;
+      h1{
+        font-weight: bold;
+      }
       h2{
-        margin-top: 10px;
+        margin-top: 2px;
+        font-size: 14px;
+         
       }
     }
    }
